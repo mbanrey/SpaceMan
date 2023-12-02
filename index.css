@@ -192,6 +192,34 @@ canvas{
     text-align: center;
     font-weight: 700;
 }
+#options-menu{
+       
+        width: 25%;
+        height: 50%;
+        background-color: antiquewhite;
+        display: flex;
+        flex-direction: column;
+        top: 25%;
+        right: 15%;
+        position: absolute;
+        border-radius: 15px;
+         box-shadow: 0 1em 2em rgba(0, 111, 0, 0.5)
+    }
+#options-menu h3{
+    margin: 8% auto;
+}
+#options-menu #bgoptions{
+    margin: 5% auto 1%;
+}
+#bgselect{
+    margin: 2% auto;
+    font-size: 15px;
+    background-color: antiquewhite;
+    border: 3px solid grey;
+    color: grey;
+    border-radius: 7px;
+    cursor: pointer;
+}
 @media screen and (min-width : 0px) and (max-width : 767px){
     *{
         font-family: 'Courier New', Courier, monospace;
@@ -215,4 +243,5 @@ canvas{
         top: 74%;
         right: 1%;
     }
+    
 }
